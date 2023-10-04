@@ -34,7 +34,7 @@ namespace StaffDirectory.Models.ViewModel
             }
         }
 
-        
+        //Add Method
         [RelayCommand]
         private async Task Add()
         {
@@ -43,7 +43,7 @@ namespace StaffDirectory.Models.ViewModel
             Employee = new();
         }
 
-        
+        //Delete method
         [RelayCommand]
         public async Task RemoveEmployee(Employee employeeToRemove)
         {
