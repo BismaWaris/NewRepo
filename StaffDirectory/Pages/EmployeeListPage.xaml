@@ -43,7 +43,7 @@
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-                
+
         </ListView>
     </FlexLayout>
                 

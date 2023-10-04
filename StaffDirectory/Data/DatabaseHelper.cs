@@ -42,3 +42,4 @@ namespace StaffDirectory.Data
         // Add other CRUD operations as needed
     }
 }
+cs

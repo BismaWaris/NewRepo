@@ -10,6 +10,6 @@ public class MainApplication : MauiApplication
 		: base(handle, ownership)
 	{
 	}
-
+	
 	protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
 }
