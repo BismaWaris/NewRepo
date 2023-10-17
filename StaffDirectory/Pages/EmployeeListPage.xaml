@@ -45,9 +45,9 @@
                                 <ColumnDefinition Width="Auto" />
                             </Grid.ColumnDefinitions>
                             <Label Grid.Row="0" Grid.Column="0"  Text="{Binding Name}" VerticalOptions="Center" IsVisible="True"  />
-                            <!--<Button Grid.Row="0" Grid.Column="1" Text="Remove"  BackgroundColor="Blue"-->
-                            <!--Command="{Binding Path=BindingContext.RemoveEmployeeCommand, Source={x:Reference EmployeeListView}}"-->
-                            <!--CommandParameter="{Binding .}" IsVisible="True"/>-->
+                            <Button Grid.Row="0" Grid.Column="1" Text="Remove"  BackgroundColor="Blue"
+                            Command="{Binding Source={x:Reference EmployeeListView}}"
+                            CommandParameter="{Binding .}" IsVisible="True"/>
                             <!--<Button Text="Update" 
                                     BackgroundColor="Green" 
                                     Command="{Binding Path=BindingContext.UpdateEmployeeCommand, Source={x:Reference EmployeeListView}}"
