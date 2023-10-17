@@ -1,6 +1,6 @@
 ﻿// StaffDirectory/Data/DatabaseHelper.cs
 
-using SQLite;
+using SQLite;  
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using StaffDirectory.Models;
@@ -42,4 +42,3 @@ namespace StaffDirectory.Data
         // Add other CRUD operations as needed
     }
 }
-cs

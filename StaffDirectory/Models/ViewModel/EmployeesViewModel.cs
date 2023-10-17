@@ -43,7 +43,7 @@ namespace StaffDirectory.Models.ViewModel
             Employee = new();
         }
 
-        //Delete method
+        //Delete Method
         [RelayCommand]
         public async Task RemoveEmployee(Employee employeeToRemove)
         {
@@ -51,7 +51,26 @@ namespace StaffDirectory.Models.ViewModel
             Employees.Remove(employeeToRemove);
         }
 
-        
+
+
+
+
+        ////Update Method
+        //[RelayCommand]
+        //public async Task UpdateEmployeeCommand(Employee employeeToUpdate)
+        //{
+        //    await App.Database.UpdateEmployeeAsync(employeeToUpdate);
+        //    Employees.Remove(employeeToUpdate);
+        //}
+
+
+        //private async void UpdateEmployee(Employee employeeToUpdate)
+        //{
+        //    // Logic to update the employee
+        //    // This might involve showing a new page where you can edit details for the employee
+        //    // and then saving them back to the database.
+        //}
+
 
 
     }
