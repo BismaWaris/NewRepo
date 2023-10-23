@@ -1,4 +1,4 @@
-﻿// StaffDirectory/Data/DatabaseHelper.cs
+﻿
 
 using SQLite;  
 using System.Collections.Generic;
@@ -34,11 +34,22 @@ namespace StaffDirectory.Data
             }
         }
 
-        internal Task<int> DeleteEmployeeAsync(Employee employee)
-        {
-            return _database.DeleteAsync(employee);
-        }
 
-        // Add other CRUD operations as needed
+        internal Task<int> UpdateEmployeeAsync(Employee employee)
+        {
+            // This checks if the employee has an ID that's not the default value. If the employee exists (i.e., the EmployeeID is not 0), it updates the record.
+
+            if (employee.EmployeeID != 0)
+            {
+                return _database.UpdateAsync(employee);
+            }
+            else
+            {
+                
+                // This returns a completed task with a result of 0.
+                return Task.FromResult(0);
+            }
+        }
+       
     }
 }

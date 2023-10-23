@@ -8,6 +8,7 @@
 
 
 
+
     <FlexLayout Direction="Column">
         <Frame Margin="5" Padding ="5" FlexLayout.Basis="600">
             <VerticalStackLayout Padding="10">
@@ -23,10 +24,11 @@
 
                 <Button Text="Add Employee"  Command="{Binding AddCommand}"/>
                 
+                
             </VerticalStackLayout>
         </Frame>
 
-        <ListView FlexLayout.Grow="1" ItemsSource="{Binding Employees}" ItemTapped="ListView_ItemTapped" RowHeight="50" x:Name="EmployeeListView">
+        <ListView FlexLayout.Grow="1" ItemsSource="{Binding Employees}" ItemTapped="ListView_ItemTapped"   RowHeight="50" x:Name="EmployeeListView">
             <ListView.Header>
                 <VerticalStackLayout BackgroundColor="DodgerBlue" Padding="3">
                     <Label HorizontalOptions="Center" Text="Employee List" TextColor="White" FontAttributes="Bold"/>
@@ -39,15 +41,21 @@
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
                                 
+                                
+                                
                             </Grid.RowDefinitions>
+                            
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="Auto" />
+                                
+                                
                             </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0"  Text="{Binding Name}" VerticalOptions="Center" IsVisible="True"  />
-                            <Button Grid.Row="0" Grid.Column="1" Text="Remove"  BackgroundColor="Blue"
-                            Command="{Binding Source={x:Reference EmployeeListView}}"
-                            CommandParameter="{Binding .}" IsVisible="True"/>
+                            <Label Grid.Row="0" Grid.Column="0"  Text="{Binding Name}"  VerticalOptions="Center" IsVisible="True"  />
+                            <Button Grid.Row="0" Grid.Column="1" Text="Update Employee"  Clicked="OnUpdateEmployeeClicked" />
+                            <!--<Button Grid.Row="0" Grid.Column="1" Text="Remove"  BackgroundColor="Blue"
+                            Command="{Binding  Source={x:Reference EmployeeListView}}"
+                            CommandParameter="{Binding .}" IsVisible="True"/>-->
                             <!--<Button Text="Update" 
                                     BackgroundColor="Green" 
                                     Command="{Binding Path=BindingContext.UpdateEmployeeCommand, Source={x:Reference EmployeeListView}}"

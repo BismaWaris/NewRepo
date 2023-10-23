@@ -23,4 +23,16 @@ public partial class EmployeeListPage : ContentPage
 		Navigation.PushAsync(employeeDetailPage);
 
     }
+
+    private async void OnUpdateEmployeeClicked(object sender, EventArgs e)
+    {
+        // Get the selected employee. Here, we are getting the BindingContext of the button clicked.
+        var button = (Button)sender;
+        var selectedEmployee = (Employee)button.BindingContext;
+
+        // Navigate to the UpdateEmployeePage with the selected employee
+        await Navigation.PushAsync(new UpdateEmployeePage(selectedEmployee));
+    }
+
+    
 }

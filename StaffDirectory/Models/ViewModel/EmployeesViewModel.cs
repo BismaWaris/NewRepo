@@ -25,9 +25,12 @@ namespace StaffDirectory.Models.ViewModel
             LoadEmployees();
         }
 
-        private async void LoadEmployees()
+        public async void LoadEmployees()
         {
+            Employees.Clear();
+            
             var employeesFromDb = await App.Database.GetEmployeesAsync();
+            
             foreach (var emp in employeesFromDb)
             {
                 Employees.Add(emp);
@@ -36,40 +39,26 @@ namespace StaffDirectory.Models.ViewModel
 
         //Add Method
         [RelayCommand]
-        private async Task Add()
+        private async Task Add()    
         {
             await App.Database.SaveEmployeeAsync(Employee);
             Employees.Add(Employee);
             Employee = new();
         }
 
-        //Delete Method
-        [RelayCommand]
-        public async Task RemoveEmployee(Employee employeeToRemove)
-        {
-            await App.Database.DeleteEmployeeAsync(employeeToRemove);
-            Employees.Remove(employeeToRemove);
-        }
 
-
-
-
-
-        ////Update Method
+     
+        ////Delete Method
         //[RelayCommand]
-        //public async Task UpdateEmployeeCommand(Employee employeeToUpdate)
+        //public async Task RemoveEmployee(Employee employeeToRemove)
         //{
-        //    await App.Database.UpdateEmployeeAsync(employeeToUpdate);
-        //    Employees.Remove(employeeToUpdate);
+        //    await App.Database.DeleteEmployeeAsync(employeeToRemove);
+        //    Employees.Remove(employeeToRemove);
         //}
 
 
-        //private async void UpdateEmployee(Employee employeeToUpdate)
-        //{
-        //    // Logic to update the employee
-        //    // This might involve showing a new page where you can edit details for the employee
-        //    // and then saving them back to the database.
-        //}
+
+    
 
 
 
