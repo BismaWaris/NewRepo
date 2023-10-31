@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StaffDirectory",
+    "\\StaffDirectory\\Models",
+    "\\StaffDirectory\\Models\\ViewModel",
+    "\\StaffDirectory\\Pages",
+    "\\StaffDirectory\\Platforms"
   ],
-  "SelectedNode": "\\StaffDirectory.sln",
   "PreviewInSolutionExplorer": false
 }

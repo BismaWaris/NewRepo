@@ -22,11 +22,11 @@ namespace StaffDirectory
         {
             var window = base.CreateWindow(activationState);
 
-            const int newWidth = 450;
-            const int newHeight = 750;
+            //const int newWidth = 450;
+            //const int newHeight = 750;
 
-            window.Width = newWidth;
-            window.Height = newHeight;
+            //window.Width = newWidth;
+            //window.Height = newHeight;
 
 
 

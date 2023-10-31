@@ -40,12 +40,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = StaffDirectory.Pages.Emplo
 build_metadata.AdditionalFiles.TargetPath = Pages\EmployeeListPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\EmployeeListPage.xaml
 
-[C:/Users/sma04/source/repos/StaffDirectory/StaffDirectory/Pages/UpdateEmployeePage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = StaffDirectory.Pages.UpdateEmployeePage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\UpdateEmployeePage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\UpdateEmployeePage.xaml
-
 [C:/Users/sma04/source/repos/StaffDirectory/StaffDirectory/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = StaffDirectory.Resources.Styles.Colors.xaml
