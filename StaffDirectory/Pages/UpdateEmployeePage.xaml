@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StaffDirectory.Pages.UpdateEmployeePage"
+             xmlns:vm="clr-namespace:StaffDirectory.Models.ViewModel"
+             xmlns:models="clr-namespace:StaffDirectory.Models"
+             x:DataType="vm:UpdateEmployeeViewModel"
+             Title="Update Employee">
+
+
+
+
+
+	<VerticalStackLayout Padding="10">
+		<Entry Placeholder ="Employee ID" Text="{Binding EmployeeToUpdate.EmployeeID}" />
+		<Entry Placeholder ="Name" Text="{Binding EmployeeToUpdate.Name}" />
+		<Entry Placeholder ="Phone" Text="{Binding EmployeeToUpdate.Phone}" />
+		<Entry Placeholder ="Department" Text="{Binding EmployeeToUpdate.Department}" />
+		<Entry Placeholder ="Address Street" Text="{Binding EmployeeToUpdate.AddressStreet}" />
+		<Entry Placeholder ="Address City" Text="{Binding EmployeeToUpdate.AddressCity}" />
+		<Entry Placeholder ="Address State" Text="{Binding EmployeeToUpdate.AddressState}" />
+		<Entry Placeholder ="Address ZIP" Text="{Binding EmployeeToUpdate.AddressZIP}" />
+		<Entry Placeholder ="Address Country" Text="{Binding EmployeeToUpdate.AddressCountry}" />
+
+		<Button Text="Update" Command="{Binding UpdateEmployeeCommand}"/>
+
+	</VerticalStackLayout>
+
+
+
+
+</ContentPage>

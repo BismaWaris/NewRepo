@@ -1,5 +1,4 @@
-﻿
-using SQLite;  
+﻿using SQLite;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using StaffDirectory.Models;
@@ -34,7 +33,7 @@ namespace StaffDirectory.Data
         }
 
 
-        public Task<int> UpdateEmployeeAsync(Employee employee)
+        internal Task<int> UpdateEmployeeAsync(Employee employee)
         {
             // This checks if the employee has an ID that's not the default value. If the employee exists (i.e., the EmployeeID is not 0), it updates the record.
 
@@ -44,11 +43,11 @@ namespace StaffDirectory.Data
             }
             else
             {
-                
+
                 // This returns a completed task with a result of 0.
                 return Task.FromResult(0);
             }
         }
-       
+
     }
 }

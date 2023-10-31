@@ -15,5 +15,8 @@
     <MauiXaml Update="Pages\EmployeeListPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\UpdateEmployeePage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
   </ItemGroup>
 </Project>

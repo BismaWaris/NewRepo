@@ -28,9 +28,9 @@ namespace StaffDirectory.Models.ViewModel
         public async void LoadEmployees()
         {
             Employees.Clear();
-            
+
             var employeesFromDb = await App.Database.GetEmployeesAsync();
-            
+
             foreach (var emp in employeesFromDb)
             {
                 Employees.Add(emp);
@@ -39,7 +39,7 @@ namespace StaffDirectory.Models.ViewModel
 
         //Add Method
         [RelayCommand]
-        private async Task Add()    
+        private async Task Add()
         {
             await App.Database.SaveEmployeeAsync(Employee);
             Employees.Add(Employee);
@@ -47,7 +47,7 @@ namespace StaffDirectory.Models.ViewModel
         }
 
 
-     
+
         ////Delete Method
         //[RelayCommand]
         //public async Task RemoveEmployee(Employee employeeToRemove)
@@ -58,7 +58,7 @@ namespace StaffDirectory.Models.ViewModel
 
 
 
-    
+
 
 
 
