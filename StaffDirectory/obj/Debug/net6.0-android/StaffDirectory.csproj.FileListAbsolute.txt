@@ -96,5 +96,3 @@ C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-andro
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\StaffDirectory.AssemblyInfoInputs.cache
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\StaffDirectory.AssemblyInfo.cs
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\StaffDirectory.csproj.CoreCompileInputs.cache
-C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\StaffDirectory.dll
-C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\StaffDirectory.pdb

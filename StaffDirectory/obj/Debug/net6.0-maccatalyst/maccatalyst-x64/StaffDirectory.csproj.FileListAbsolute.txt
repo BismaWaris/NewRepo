@@ -35,6 +35,3 @@ C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-macca
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\StaffDirectory.AssemblyInfoInputs.cache
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\StaffDirectory.AssemblyInfo.cs
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\StaffDirectory.csproj.CoreCompileInputs.cache
-C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\StaffDirectory.dll
-C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\refint\StaffDirectory.dll
-C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\StaffDirectory.pdb
