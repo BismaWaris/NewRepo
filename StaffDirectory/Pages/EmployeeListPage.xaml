@@ -7,10 +7,13 @@
              x:DataType="vm:EmployeesViewModel">
 
 
-
+    
 
     <FlexLayout Direction="Column">
-        <Frame Margin="5" Padding ="5" FlexLayout.Basis="600">
+
+        
+
+        <Frame Margin="5" Padding ="5" FlexLayout.Basis="800">
             <VerticalStackLayout Padding="10">
                 <Entry Placeholder ="Employee ID" Text="{Binding Employee.EmployeeID}" />
                 <Entry Placeholder ="Name" Text="{Binding Employee.Name}" />
@@ -27,8 +30,8 @@
                 
             </VerticalStackLayout>
         </Frame>
-
-        <ListView FlexLayout.Grow="1" ItemsSource="{Binding Employees}" ItemTapped="ListView_ItemTapped"   RowHeight="50" x:Name="EmployeeListView">
+        
+         <ListView FlexLayout.Grow="1" ItemsSource="{Binding Employees}" ItemTapped="ListView_ItemTapped"   RowHeight="50" x:Name="EmployeeListView">
             <ListView.Header>
                 <VerticalStackLayout BackgroundColor="DodgerBlue" Padding="3">
                     <Label HorizontalOptions="Center" Text="Employee List" TextColor="White" FontAttributes="Bold"/>
@@ -69,8 +72,10 @@
                 </DataTemplate> 
             </ListView.ItemTemplate>
 
-        </ListView>
+         </ListView>
+       
+
     </FlexLayout>
-                
-               
+    
+   
 </ContentPage>

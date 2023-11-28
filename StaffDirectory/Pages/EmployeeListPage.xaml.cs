@@ -12,6 +12,13 @@ public partial class EmployeeListPage : ContentPage
 		BindingContext = new EmployeesViewModel();
 	}
 
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+        // Refresh the employee list
+        var viewModel = BindingContext as EmployeesViewModel;
+        viewModel?.LoadEmployees();
+    }
 
     private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
     {
@@ -34,5 +41,5 @@ public partial class EmployeeListPage : ContentPage
         await Navigation.PushAsync(new UpdateEmployeePage(selectedEmployee));
     }
 
-    
+   
 }
