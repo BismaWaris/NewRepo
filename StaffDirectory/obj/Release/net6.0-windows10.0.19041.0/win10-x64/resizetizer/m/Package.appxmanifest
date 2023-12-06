@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" IgnorableNamespaces="uap rescap">
-  <Identity Name="99954960-6f07-4bed-8bed-77518ebdc8c5" Publisher="CN=User Name" Version="1.0.0.1" />
+  <Identity Name="99954960-6f07-4bed-8bed-77518ebdc8c5" Publisher="CN=User Name" Version="0.0.1.0" />
   <mp:PhoneIdentity PhoneProductId="5BE43922-94AB-49E2-8695-083BB75FFCE7" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>StaffDirectory</DisplayName>

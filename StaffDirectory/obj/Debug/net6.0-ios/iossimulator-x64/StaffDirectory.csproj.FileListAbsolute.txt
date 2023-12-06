@@ -242,6 +242,8 @@ C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-ios\i
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\background_image.png
+C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\roi_logo.png
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\splash.png
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\splash@2x.png
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\splash@3x.png

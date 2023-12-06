@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="99954960-6f07-4bed-8bed-77518ebdc8c5" Publisher="CN=User Name" Version="1.0.0.1" ProcessorArchitecture="x64" />
+  <Identity Name="99954960-6f07-4bed-8bed-77518ebdc8c5" Publisher="CN=User Name" Version="0.0.1.0" ProcessorArchitecture="x64" />
   <mp:PhoneIdentity PhoneProductId="5BE43922-94AB-49E2-8695-083BB75FFCE7" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>StaffDirectory</DisplayName>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>StaffDirectory</id>
+    <version>1.0.0</version>
+    <authors>StaffDirectory</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-android31.0">
+        <dependency id="CommunityToolkit.Mvvm" version="8.2.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.Sqlite" version="7.0.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Dependencies" version="6.0.548" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Extensions" version="6.0.548" exclude="Build,Analyzers" />
+        <dependency id="sqlite-net-pcl" version="1.8.116" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-ios16.1">
+        <dependency id="CommunityToolkit.Mvvm" version="8.2.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.Sqlite" version="7.0.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Dependencies" version="6.0.548" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Extensions" version="6.0.548" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="sqlite-net-pcl" version="1.8.116" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-maccatalyst16.1">
+        <dependency id="CommunityToolkit.Mvvm" version="8.2.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.Sqlite" version="7.0.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Dependencies" version="6.0.548" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Extensions" version="6.0.548" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.InteropServices.NFloat.Internal" version="6.0.1" exclude="Build,Analyzers" />
+        <dependency id="sqlite-net-pcl" version="1.8.116" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0-windows10.0.19041">
+        <dependency id="CommunityToolkit.Mvvm" version="8.2.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.Sqlite" version="7.0.11" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Dependencies" version="6.0.548" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Maui.Extensions" version="6.0.548" exclude="Build,Analyzers" />
+        <dependency id="sqlite-net-pcl" version="1.8.116" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\bin\Release\net6.0-android\StaffDirectory.runtimeconfig.json" target="lib\net6.0-android31.0\StaffDirectory.runtimeconfig.json" />
+    <file src="C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\bin\Release\net6.0-android\StaffDirectory.dll" target="lib\net6.0-android31.0\StaffDirectory.dll" />
+    <file src="C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\bin\Release\net6.0-android\StaffDirectory.xml" target="lib\net6.0-android31.0\StaffDirectory.xml" />
+    <file src="C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\bin\Release\net6.0-ios\iossimulator-x64\StaffDirectory.runtimeconfig.json" target="lib\net6.0-ios16.1\StaffDirectory.runtimeconfig.json" />
+    <file src="C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\bin\Release\net6.0-ios\iossimulator-x64\StaffDirectory.dll" target="lib\net6.0-ios16.1\StaffDirectory.dll" />
+    <file src="C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\bin\Release\net6.0-maccatalyst\maccatalyst-x64\StaffDirectory.runtimeconfig.json" target="lib\net6.0-maccatalyst16.1\StaffDirectory.runtimeconfig.json" />
+    <file src="C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\bin\Release\net6.0-maccatalyst\maccatalyst-x64\StaffDirectory.dll" target="lib\net6.0-maccatalyst16.1\StaffDirectory.dll" />
+    <file src="C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\bin\Release\net6.0-windows10.0.19041.0\win10-x64\StaffDirectory.runtimeconfig.json" target="lib\net6.0-windows10.0.19041\StaffDirectory.runtimeconfig.json" />
+    <file src="C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\bin\Release\net6.0-windows10.0.19041.0\win10-x64\StaffDirectory.dll" target="lib\net6.0-windows10.0.19041\StaffDirectory.dll" />
+    <file src="C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\bin\Release\net6.0-windows10.0.19041.0\win10-x64\resources.pri" target="lib\net6.0-windows10.0.19041\resources.pri" />
+  </files>
+</package>

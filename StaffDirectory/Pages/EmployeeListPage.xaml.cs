@@ -9,16 +9,30 @@ public partial class EmployeeListPage : ContentPage
 	{
 		InitializeComponent();
 
-		BindingContext = new EmployeesViewModel();
-	}
+        BindingContext = new EmployeesViewModel();
+      
+
+    }
+
+
+    
 
     protected override void OnAppearing()
     {
+        
         base.OnAppearing();
         // Refresh the employee list
         var viewModel = BindingContext as EmployeesViewModel;
         viewModel?.LoadEmployees();
+        
+
+
     }
+
+    
+
+
+
 
     private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
     {

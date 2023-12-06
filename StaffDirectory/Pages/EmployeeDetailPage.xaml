@@ -5,7 +5,12 @@
              Title="Employee Details"
              xmlns:vm= "clr-namespace:StaffDirectory.Models.ViewModel"
              x:DataType="vm:EmployeesViewModel">
-    <TableView Intent="Data">
+
+  <Grid>
+
+        <Image Source="background_image.png" Aspect="AspectFill" />
+
+        <TableView Intent="Data">
     <TableRoot>
         <TableSection Title="Employee Information">
                 <TextCell Text = "EmployeeID" Detail="{Binding Employee.EmployeeID}"/>
@@ -22,4 +27,5 @@
    
     </TableRoot>
     </TableView>
+  </Grid>
 </ContentPage>

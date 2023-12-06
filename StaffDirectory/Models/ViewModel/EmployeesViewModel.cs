@@ -20,6 +20,14 @@ namespace StaffDirectory.Models.ViewModel
         [ObservableProperty]
         private Employee employee = new();
 
+
+
+
+
+
+
+
+
         public EmployeesViewModel()
         {
             LoadEmployees();
@@ -40,12 +48,14 @@ namespace StaffDirectory.Models.ViewModel
         //Add Method
         [RelayCommand]
         private async Task Add()
-        {
+        {   
             await App.Database.SaveEmployeeAsync(Employee);
             Employees.Add(Employee);
-            Employee = new();
+            Employee = new Employee();
+          
         }
 
+       
 
 
         ////Delete Method

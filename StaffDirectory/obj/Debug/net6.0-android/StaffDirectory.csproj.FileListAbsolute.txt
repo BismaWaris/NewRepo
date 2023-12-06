@@ -30,6 +30,8 @@ C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-andro
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\splash.png
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\splash.png
+C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\resizetizer\r\drawable\background_image.png
+C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\resizetizer\r\drawable\roi_logo.png
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-android\resizetizer\r\mipmap-hdpi\appicon.png

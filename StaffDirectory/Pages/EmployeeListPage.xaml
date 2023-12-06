@@ -2,80 +2,88 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="StaffDirectory.Pages.EmployeeListPage"
              Title="EmployeeListPage"
-             xmlns:vm="clr-namespace:StaffDirectory.Models.ViewModel"
              xmlns:models="clr-namespace:StaffDirectory.Models"
+             xmlns:vm="clr-namespace:StaffDirectory.Models.ViewModel"
              x:DataType="vm:EmployeesViewModel">
+    <Grid>
 
-
-    
-
-    <FlexLayout Direction="Column">
-
+        <Image Source="background_image.png" Aspect="AspectFill" />
         
+      <Grid> 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- For Image -->
+            <RowDefinition Height="*"/>
+            <!-- For FlexLayout -->
+        </Grid.RowDefinitions>
 
-        <Frame Margin="5" Padding ="5" FlexLayout.Basis="800">
-            <VerticalStackLayout Padding="10">
-                <Entry Placeholder ="Employee ID" Text="{Binding Employee.EmployeeID}" />
-                <Entry Placeholder ="Name" Text="{Binding Employee.Name}" />
-                <Entry Placeholder ="Phone" Text="{Binding Employee.Phone}" />
-                <Entry Placeholder ="Department" Text="{Binding Employee.Department}" />
-                <Entry Placeholder ="Address Street" Text="{Binding Employee.AddressStreet}" />
-                <Entry Placeholder ="Address City" Text="{Binding Employee.AddressCity}" />
-                <Entry Placeholder ="Address State" Text="{Binding Employee.AddressState}" />
-                <Entry Placeholder ="Address ZIP" Text="{Binding Employee.AddressZIP}" />
-                <Entry Placeholder ="Address Country" Text="{Binding Employee.AddressCountry}" />
 
-                <Button Text="Add Employee"  Command="{Binding AddCommand}"/>
-                
-                
-            </VerticalStackLayout>
-        </Frame>
-        
-         <ListView FlexLayout.Grow="1" ItemsSource="{Binding Employees}" ItemTapped="ListView_ItemTapped"   RowHeight="50" x:Name="EmployeeListView">
-            <ListView.Header>
-                <VerticalStackLayout BackgroundColor="DodgerBlue" Padding="3">
-                    <Label HorizontalOptions="Center" Text="Employee List" TextColor="White" FontAttributes="Bold"/>
+        <Image Grid.Row="0" Source="roi_logo.png" HorizontalOptions="Center" VerticalOptions="Start" HeightRequest="50" />
+
+
+
+        <FlexLayout Grid.Row="1" Direction="Column">
+
+
+            <Frame Margin="4" Padding ="4" FlexLayout.Basis="800">
+                <VerticalStackLayout Padding="10">
+                    <Entry Placeholder ="Employee ID" Text="{Binding Employee.EmployeeID}" />
+                    <Entry Placeholder ="Name" Text="{Binding Employee.Name}" />
+                    <Entry Placeholder ="Phone" Text="{Binding Employee.Phone}" />
+                    <Entry Placeholder ="Department" Text="{Binding Employee.Department}" />
+                    <Entry Placeholder ="Address Street" Text="{Binding Employee.AddressStreet}" />
+                    <Entry Placeholder ="Address City" Text="{Binding Employee.AddressCity}" />
+                    <Entry Placeholder ="Address State" Text="{Binding Employee.AddressState}" />
+                    <Entry Placeholder ="Address ZIP" Text="{Binding Employee.AddressZIP}" />
+                    <Entry Placeholder ="Address Country" Text="{Binding Employee.AddressCountry}" />
+
+                    <Button Text="Add Employee"  Command="{Binding AddCommand}"/>
+
+
                 </VerticalStackLayout>
-            </ListView.Header>
-            <ListView.ItemTemplate>
-                <DataTemplate x:DataType="models:Employee">
-                    <ViewCell>
-                       <Grid Padding="2">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="Auto" />
-                                
-                                
-                                
-                            </Grid.RowDefinitions>
-                            
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="Auto" />
-                                
-                                
-                            </Grid.ColumnDefinitions>
-                            <Label Grid.Row="0" Grid.Column="0"  Text="{Binding Name}"  VerticalOptions="Center" IsVisible="True"  />
-                            <Button Grid.Row="0" Grid.Column="1" Text="Update Employee"  Clicked="OnUpdateEmployeeClicked" />
-                            <!--<Button Grid.Row="0" Grid.Column="1" Text="Remove"  BackgroundColor="Blue"
-                            Command="{Binding  Source={x:Reference EmployeeListView}}"
-                            CommandParameter="{Binding .}" IsVisible="True"/>-->
-                            <!--<Button Text="Update" 
-                                    BackgroundColor="Green" 
-                                    Command="{Binding Path=BindingContext.UpdateEmployeeCommand, Source={x:Reference EmployeeListView}}"
-                                    CommandParameter="{Binding .}"
-                            />-->
+            </Frame>
+
+            <ListView FlexLayout.Grow="1" ItemsSource="{Binding Employees}" ItemTapped="ListView_ItemTapped"   RowHeight="50" x:Name="EmployeeListView">
+                <ListView.Header>
+                    <VerticalStackLayout BackgroundColor="DodgerBlue" Padding="3">
+                        <Label HorizontalOptions="Center" Text="Employee List" TextColor="White" FontAttributes="Bold"/>
+                    </VerticalStackLayout>
+                </ListView.Header>
+                <ListView.ItemTemplate  >
+                    <DataTemplate x:DataType="models:Employee" >
+                        <ViewCell  >
+                            <Grid Padding="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
 
 
-                       </Grid>
-                     
-                    </ViewCell>
-                </DataTemplate> 
-            </ListView.ItemTemplate>
 
-         </ListView>
-       
+                                </Grid.RowDefinitions>
 
-    </FlexLayout>
-    
-   
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+
+
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Row="0" Grid.Column="0"  Text="{Binding Name}"  VerticalOptions="Center" IsVisible="True"  />
+                                <Button Grid.Row="0" Grid.Column="1" Text="Update Employee"  Clicked="OnUpdateEmployeeClicked" />
+
+                               
+
+
+                            </Grid>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+
+        </FlexLayout>
+      </Grid>
+    </Grid>
+
 </ContentPage>

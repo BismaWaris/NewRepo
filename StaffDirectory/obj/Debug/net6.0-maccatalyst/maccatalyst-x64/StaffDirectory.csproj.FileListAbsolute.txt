@@ -237,6 +237,8 @@ C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-macca
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\background_image.png
+C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\roi_logo.png
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\mauiimage.stamp
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\resizetizer\f\MauiInfo.plist
 C:\Users\sma04\source\repos\StaffDirectory\StaffDirectory\obj\Debug\net6.0-maccatalyst\maccatalyst-x64\mauifont.stamp
